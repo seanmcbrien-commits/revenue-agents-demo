@@ -110,7 +110,7 @@ Then try:
 
 ## In production
 
-The production version this is based on ran on an OpenClaw agent runtime with nine specialized agents: opportunity evaluation, pipeline health, outbound orchestration, channel intelligence, sales ops and others. It pulled from Salesforce, Salesloft, Google Calendar and Drive transcripts, and Slack. It delivered alerts to Slack and Telegram and fed a React and SQLite dashboard the sales team used daily. This repo keeps the core decision logic and the agent pattern without any of the private data.
+The production version this is based on ran on an OpenClaw agent runtime with eight specialized agents, including opportunity evaluation, pipeline health, outbound orchestration, channel intelligence and sales ops. It pulled from Salesforce, Salesloft, Google Calendar and Drive transcripts, and Slack. It delivered alerts to Slack and Telegram and fed a React and SQLite dashboard for the sales team. This repo keeps the core decision logic and the agent pattern without any of the private data.
 
 ## Layout
 
