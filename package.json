@@ -1,0 +1,21 @@
+{
+  "name": "revenue-agents-demo",
+  "version": "1.0.0",
+  "description": "A multi-agent revenue operations system — deal scoring, pipeline health and AI briefs — on synthetic CRM data, with an MCP server so Claude can query it.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Sean McBrien",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "generate": "node data/generate.js",
+    "demo": "node src/orchestrator.js",
+    "mcp": "node src/mcp-server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.5"
+  }
+}

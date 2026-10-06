@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pipeline Dashboard</title>
+<style>
+  :root { --bg:#f7f7f5; --fg:#1d1d1b; --muted:#6b6b66; --card:#fff; --line:#e4e4df; --accent:#2b6cb0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151514; --fg:#ececea; --muted:#9a9a94; --card:#1f1f1d; --line:#33332f; } }
+  body { margin:0; padding:24px 16px; background:var(--bg); color:var(--fg); font:14px/1.45 system-ui,-apple-system,sans-serif; }
+  main { max-width:1100px; margin:0 auto; }
+  h1 { font-size:22px; margin:0 0 4px; } .sub { color:var(--muted); font-size:12px; }
+  .brief { background:var(--card); border:1px solid var(--line); border-left:4px solid var(--accent); padding:12px 16px; margin:16px 0; border-radius:6px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:12px; margin:16px 0; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:12px 14px; }
+  .card h3 { margin:0; font-size:14px; } .big { font-size:26px; font-weight:600; }
+  .table-wrap { overflow-x:auto; } table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); }
+  th, td { text-align:left; padding:8px 10px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { font-size:12px; color:var(--muted); font-weight:600; } .num { text-align:right; white-space:nowrap; }
+  .pill { color:#fff; border-radius:10px; padding:1px 8px; font-weight:600; }
+  .bar { display:inline-block; width:28px; height:5px; background:var(--line); margin-right:3px; border-radius:3px; overflow:hidden; }
+  .bar i { display:block; height:100%; background:var(--accent); }
+</style></head>
+<body><main>
+  <h1>Pipeline dashboard — Q4 2026</h1>
+  <div class="sub">As of 2026-09-30 · $4,726,000 pipeline · $1,389,000 weighted · $1,800,000 quota · synthetic data</div>
+  <div class="brief">Team pipeline is $4,726k against $1,800k of quarterly quota; the stage-weighted forecast is $1,389k. 4 critical and 31 warning alerts are open. Look at these first — strong deals with a forecast-risk flag: Evergreen Retail Group — Fraud alerts via SMS; Trailhead Markets — Global SIP trunking; Foxhollow Logistics — Global SIP trunking. 8 deals ($1,034k) score as close-out candidates and are inflating coverage. Lowest coverage: Jordan Pike at 1.33x.<div class="sub">Brief: template</div></div>
+  <div class="cards">
+      <div class="card">
+        <h3>Avery Lane</h3>
+        <div class="big">3.75x</div><div class="sub">coverage · $536,500 weighted</div>
+        <div class="sub">0 critical · 15 warning</div>
+      </div>
+      <div class="card">
+        <h3>Jordan Pike</h3>
+        <div class="big">1.33x</div><div class="sub">coverage · $98,100 weighted</div>
+        <div class="sub">1 critical · 5 warning</div>
+      </div>
+      <div class="card">
+        <h3>Morgan Reyes</h3>
+        <div class="big">2.32x</div><div class="sub">coverage · $390,900 weighted</div>
+        <div class="sub">1 critical · 2 warning</div>
+      </div>
+      <div class="card">
+        <h3>Riley Chen</h3>
+        <div class="big">3.11x</div><div class="sub">coverage · $363,500 weighted</div>
+        <div class="sub">2 critical · 9 warning</div>
+      </div></div>
+  <div class="table-wrap"><table>
+    <thead><tr><th class="num">Score</th><th>Recommendation</th><th>Opportunity <span class="sub">(factor bars: activity · meetings · ICP · qualification · engagement · momentum)</span></th><th>Owner</th><th>Stage</th><th class="num">ARR</th><th>Overrides</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">90</span></td>
+        <td>Keep — strong</td>
+        <td>Silverleaf Markets — Contact center modernization<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:100%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:75%"></i></span><span title="ICP fit" class="bar"><i style="width:86.66666666666667%"></i></span><span title="Qualification depth" class="bar"><i style="width:100%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Avery Lane</td><td>Negotiation</td><td class="num">$60,000</td>
+        <td class="sub">▲ Economic buyer identified</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">83</span></td>
+        <td>Keep — strong</td>
+        <td>Summit Capital — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:75%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:90%"></i></span><span title="ICP fit" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Qualification depth" class="bar"><i style="width:80%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Jordan Pike</td><td>Qualification</td><td class="num">$250,000</td>
+        <td class="sub">▲ Large deal ($250,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">82</span></td>
+        <td>Keep — strong</td>
+        <td>Harbor Bank — IoT fleet connectivity<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:95%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:85%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:100%"></i></span><span title="Engagement breadth" class="bar"><i style="width:60%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Proposal</td><td class="num">$180,000</td>
+        <td class="sub">▲ Economic buyer identified<br>▲ Large deal ($180,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">81</span></td>
+        <td>Keep — strong</td>
+        <td>Lumen Energy — Appointment reminders<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:95%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:35%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:100%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Riley Chen</td><td>Proposal</td><td class="num">$90,000</td>
+        <td class="sub">▲ Economic buyer identified</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">81</span></td>
+        <td>Keep — strong</td>
+        <td>Quarry Freight — Appointment reminders<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:70%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Qualification depth" class="bar"><i style="width:80%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Riley Chen</td><td>Solution Design</td><td class="num">$120,000</td>
+        <td class="sub">▲ Product usage rising during evaluation</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">81</span></td>
+        <td>Keep — strong</td>
+        <td>Brightpath Capital — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:100%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Qualification depth" class="bar"><i style="width:100%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Riley Chen</td><td>Negotiation</td><td class="num">$60,000</td>
+        <td class="sub">▲ Economic buyer identified</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">81</span></td>
+        <td>Keep — strong</td>
+        <td>Evergreen Retail Group — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:45%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:85%"></i></span><span title="ICP fit" class="bar"><i style="width:33.33333333333333%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:60%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Negotiation</td><td class="num">$180,000</td>
+        <td class="sub">▲ Large deal ($180,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">81</span></td>
+        <td>Keep — strong</td>
+        <td>Foxhollow Logistics — Appointment reminders<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:80%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:35%"></i></span><span title="ICP fit" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Qualification depth" class="bar"><i style="width:80%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Jordan Pike</td><td>Qualification</td><td class="num">$180,000</td>
+        <td class="sub">▲ Large deal ($180,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">81</span></td>
+        <td>Keep — strong</td>
+        <td>Meridian Freight — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:50%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:100%"></i></span><span title="Engagement breadth" class="bar"><i style="width:80%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Riley Chen</td><td>Solution Design</td><td class="num">$180,000</td>
+        <td class="sub">▲ Economic buyer identified<br>▲ Large deal ($180,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#1a7f4b">81</span></td>
+        <td>Keep — strong</td>
+        <td>Pinecrest Labs — IoT fleet connectivity<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:75%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:40%"></i></span><span title="ICP fit" class="bar"><i style="width:100%"></i></span><span title="Qualification depth" class="bar"><i style="width:100%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Avery Lane</td><td>Solution Design</td><td class="num">$24,000</td>
+        <td class="sub">▲ Economic buyer identified</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">80</span></td>
+        <td>Keep — active</td>
+        <td>Trailhead Markets — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:55.00000000000001%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:75%"></i></span><span title="ICP fit" class="bar"><i style="width:100%"></i></span><span title="Qualification depth" class="bar"><i style="width:80%"></i></span><span title="Engagement breadth" class="bar"><i style="width:80%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Negotiation</td><td class="num">$24,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">64</span></td>
+        <td>Keep — active</td>
+        <td>Northgate Health — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:50%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:100%"></i></span><span title="Qualification depth" class="bar"><i style="width:80%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Riley Chen</td><td>Qualification</td><td class="num">$90,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">64</span></td>
+        <td>Keep — active</td>
+        <td>Foxhollow Logistics — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:10%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:95%"></i></span><span title="ICP fit" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:80%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Jordan Pike</td><td>Proposal</td><td class="num">$24,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">61</span></td>
+        <td>Keep — active</td>
+        <td>Summit Capital — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:35%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:40%"></i></span><span title="ICP fit" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Qualification depth" class="bar"><i style="width:73.33333333333333%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Solution Design</td><td class="num">$24,000</td>
+        <td class="sub">▲ Economic buyer identified</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">61</span></td>
+        <td>Keep — active</td>
+        <td>Ironwood Freight — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:60%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:80%"></i></span><span title="Engagement breadth" class="bar"><i style="width:100%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Solution Design</td><td class="num">$90,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">61</span></td>
+        <td>Keep — active</td>
+        <td>Silverleaf Markets — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:40%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:86.66666666666667%"></i></span><span title="Qualification depth" class="bar"><i style="width:80%"></i></span><span title="Engagement breadth" class="bar"><i style="width:60%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Solution Design</td><td class="num">$250,000</td>
+        <td class="sub">▲ Large deal ($250,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">61</span></td>
+        <td>Keep — active</td>
+        <td>Vantage Systems — IoT fleet connectivity<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:20%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:33.33333333333333%"></i></span><span title="Engagement breadth" class="bar"><i style="width:80%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Avery Lane</td><td>Discovery</td><td class="num">$180,000</td>
+        <td class="sub">▲ Large deal ($180,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#3d8b5f">61</span></td>
+        <td>Keep — active</td>
+        <td>Stonegate Health — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:100%"></i></span><span title="Qualification depth" class="bar"><i style="width:73.33333333333333%"></i></span><span title="Engagement breadth" class="bar"><i style="width:80%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Avery Lane</td><td>Solution Design</td><td class="num">$36,000</td>
+        <td class="sub">▲ Economic buyer identified</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#b7791f">55</span></td>
+        <td>Keep — watch</td>
+        <td>Ironwood Freight — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:40%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:40%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:60%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Solution Design</td><td class="num">$24,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#b7791f">55</span></td>
+        <td>Keep — watch</td>
+        <td>Copperline Labs — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:40%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:100%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:80%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Avery Lane</td><td>Qualification</td><td class="num">$120,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#b7791f">51</span></td>
+        <td>Keep — watch</td>
+        <td>Westbrook Clinics — IoT fleet connectivity<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:20%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:40%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:60%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Qualification</td><td class="num">$120,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#b7791f">41</span></td>
+        <td>Keep — watch</td>
+        <td>Cedar Health — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:20%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:33.33333333333333%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:60%"></i></span><span title="Deal momentum" class="bar"><i style="width:100%"></i></span></div></td>
+        <td>Riley Chen</td><td>Solution Design</td><td class="num">$60,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#b7791f">41</span></td>
+        <td>Keep — watch</td>
+        <td>Granite Systems — IoT fleet connectivity<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:20%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:40%"></i></span><span title="Engagement breadth" class="bar"><i style="width:20%"></i></span><span title="Deal momentum" class="bar"><i style="width:60%"></i></span></div></td>
+        <td>Riley Chen</td><td>Qualification</td><td class="num">$250,000</td>
+        <td class="sub">▲ Large deal ($250,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#b7791f">41</span></td>
+        <td>Keep — watch</td>
+        <td>Hollow Creek Freight — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:20%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:40%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:46.666666666666664%"></i></span></div></td>
+        <td>Avery Lane</td><td>Proposal</td><td class="num">$250,000</td>
+        <td class="sub">▲ Large deal ($250,000 ARR)</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#b7791f">41</span></td>
+        <td>Keep — watch</td>
+        <td>Keystone Health — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:30%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:0%"></i></span><span title="Qualification depth" class="bar"><i style="width:73.33333333333333%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Qualification</td><td class="num">$24,000</td>
+        <td class="sub">▲ Economic buyer identified</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c05621">39</span></td>
+        <td>Close out (soft)</td>
+        <td>Larkspur Logistics — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:50%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:0%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:60%"></i></span><span title="Deal momentum" class="bar"><i style="width:80%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Qualification</td><td class="num">$36,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c05621">37</span></td>
+        <td>Close out (soft)</td>
+        <td>Windward Freight — IoT fleet connectivity<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:35%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:40%"></i></span><span title="ICP fit" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:0%"></i></span></div></td>
+        <td>Avery Lane</td><td>Solution Design</td><td class="num">$250,000</td>
+        <td class="sub">▲ Large deal ($250,000 ARR)<br>▼ Close date pushed 4 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c05621">36</span></td>
+        <td>Close out (soft)</td>
+        <td>Riverbend Energy — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:86.66666666666667%"></i></span><span title="Qualification depth" class="bar"><i style="width:100%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:13.333333333333334%"></i></span></div></td>
+        <td>Avery Lane</td><td>Proposal</td><td class="num">$36,000</td>
+        <td class="sub">▲ Economic buyer identified<br>▼ Close date pushed 3 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c05621">30</span></td>
+        <td>Close out (soft)</td>
+        <td>Northgate Health — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:100%"></i></span><span title="Qualification depth" class="bar"><i style="width:40%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:20%"></i></span></div></td>
+        <td>Avery Lane</td><td>Proposal</td><td class="num">$180,000</td>
+        <td class="sub">▲ Large deal ($180,000 ARR)<br>▼ Close date pushed 4 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c05621">30</span></td>
+        <td>Close out (soft)</td>
+        <td>Oakridge Freight — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:10%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:100%"></i></span><span title="Qualification depth" class="bar"><i style="width:40%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:6.666666666666667%"></i></span></div></td>
+        <td>Jordan Pike</td><td>Qualification</td><td class="num">$120,000</td>
+        <td class="sub"></td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c05621">29</span></td>
+        <td>Close out (soft)</td>
+        <td>Granite Systems — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:40%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:20%"></i></span><span title="Deal momentum" class="bar"><i style="width:0%"></i></span></div></td>
+        <td>Riley Chen</td><td>Solution Design</td><td class="num">$180,000</td>
+        <td class="sub">▲ Large deal ($180,000 ARR)<br>▼ Close date pushed 5 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">25</span></td>
+        <td>Close out</td>
+        <td>Riverbend Energy — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:86.66666666666667%"></i></span><span title="Qualification depth" class="bar"><i style="width:60%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:33.33333333333333%"></i></span></div></td>
+        <td>Morgan Reyes</td><td>Discovery</td><td class="num">$90,000</td>
+        <td class="sub">▼ No customer contact in 64 days</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">21</span></td>
+        <td>Close out</td>
+        <td>Redline Media — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:20%"></i></span><span title="Engagement breadth" class="bar"><i style="width:20%"></i></span><span title="Deal momentum" class="bar"><i style="width:33.33333333333333%"></i></span></div></td>
+        <td>Riley Chen</td><td>Proposal</td><td class="num">$60,000</td>
+        <td class="sub">▼ No logged customer contact<br>▼ Product usage declining</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">21</span></td>
+        <td>Close out</td>
+        <td>Vantage Systems — Contact center modernization<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:33.33333333333333%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:0%"></i></span></div></td>
+        <td>Avery Lane</td><td>Discovery</td><td class="num">$250,000</td>
+        <td class="sub">▲ Large deal ($250,000 ARR)<br>▼ Close date pushed 4 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">20</span></td>
+        <td>Close out</td>
+        <td>Tidewater Capital — Global SIP trunking<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Qualification depth" class="bar"><i style="width:26.666666666666668%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:0%"></i></span></div></td>
+        <td>Riley Chen</td><td>Discovery</td><td class="num">$250,000</td>
+        <td class="sub">▲ Large deal ($250,000 ARR)<br>▼ No logged customer contact<br>▼ Close date pushed 5 times<br>▼ Product usage declining<br>▼ Close date is in the past</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">19</span></td>
+        <td>Close out</td>
+        <td>Driftwood Capital — IoT fleet connectivity<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:33.33333333333333%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:40%"></i></span><span title="Deal momentum" class="bar"><i style="width:0%"></i></span></div></td>
+        <td>Avery Lane</td><td>Proposal</td><td class="num">$180,000</td>
+        <td class="sub">▲ Large deal ($180,000 ARR)<br>▼ Close date pushed 4 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">19</span></td>
+        <td>Close out</td>
+        <td>Juniper Labs — Voice AI agents<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:20%"></i></span><span title="Qualification depth" class="bar"><i style="width:86.66666666666667%"></i></span><span title="Engagement breadth" class="bar"><i style="width:20%"></i></span><span title="Deal momentum" class="bar"><i style="width:0%"></i></span></div></td>
+        <td>Avery Lane</td><td>Solution Design</td><td class="num">$120,000</td>
+        <td class="sub">▲ Economic buyer identified<br>▼ Close date pushed 5 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">19</span></td>
+        <td>Close out</td>
+        <td>Larkspur Logistics — Appointment reminders<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:0%"></i></span><span title="Qualification depth" class="bar"><i style="width:66.66666666666666%"></i></span><span title="Engagement breadth" class="bar"><i style="width:20%"></i></span><span title="Deal momentum" class="bar"><i style="width:40%"></i></span></div></td>
+        <td>Jordan Pike</td><td>Qualification</td><td class="num">$24,000</td>
+        <td class="sub">▼ Close date pushed 3 times</td>
+      </tr>
+      <tr>
+        <td class="num"><span class="pill" style="background:#c53030">16</span></td>
+        <td>Close out</td>
+        <td>Blue Retail Group — Fraud alerts via SMS<div class="sub"><span title="Recent activity (14d)" class="bar"><i style="width:0%"></i></span><span title="Meeting evidence (30d)" class="bar"><i style="width:0%"></i></span><span title="ICP fit" class="bar"><i style="width:33.33333333333333%"></i></span><span title="Qualification depth" class="bar"><i style="width:53.333333333333336%"></i></span><span title="Engagement breadth" class="bar"><i style="width:20%"></i></span><span title="Deal momentum" class="bar"><i style="width:0%"></i></span></div></td>
+        <td>Riley Chen</td><td>Solution Design</td><td class="num">$60,000</td>
+        <td class="sub">▼ Close date pushed 4 times</td>
+      </tr></tbody>
+  </table></div>
+</main></body></html>

@@ -1,0 +1,3018 @@
+{
+  "asOf": "2026-09-30",
+  "generatedWithSeed": 42,
+  "quarter": "Q4 2026",
+  "reps": [
+    "Avery Lane",
+    "Jordan Pike",
+    "Morgan Reyes",
+    "Riley Chen"
+  ],
+  "accounts": [
+    {
+      "id": "ACC-001",
+      "name": "Blue Retail Group",
+      "industry": "Media",
+      "employees": 1800,
+      "region": "West",
+      "techSignals": [
+        "legacy-pbx"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-002",
+      "name": "Harbor Bank",
+      "industry": "Logistics",
+      "employees": 1800,
+      "region": "Central",
+      "techSignals": [
+        "legacy-pbx"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-003",
+      "name": "Summit Capital",
+      "industry": "Energy",
+      "employees": 8000,
+      "region": "East",
+      "techSignals": [
+        "contact-center",
+        "programmable-voice",
+        "legacy-pbx",
+        "sms-marketing"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-004",
+      "name": "Cedar Health",
+      "industry": "Logistics",
+      "employees": 60,
+      "region": "East",
+      "techSignals": [],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-005",
+      "name": "Ironwood Freight",
+      "industry": "Logistics",
+      "employees": 150,
+      "region": "Central",
+      "techSignals": [
+        "iot-fleet"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-006",
+      "name": "Lumen Energy",
+      "industry": "Healthcare",
+      "employees": 900,
+      "region": "West",
+      "techSignals": [
+        "sms-marketing"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-007",
+      "name": "Northgate Health",
+      "industry": "Healthcare",
+      "employees": 3500,
+      "region": "West",
+      "techSignals": [
+        "contact-center"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-008",
+      "name": "Quarry Freight",
+      "industry": "Media",
+      "employees": 20000,
+      "region": "East",
+      "techSignals": [
+        "contact-center",
+        "legacy-pbx"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-009",
+      "name": "Redline Media",
+      "industry": "Financial Services",
+      "employees": 3500,
+      "region": "West",
+      "techSignals": [
+        "legacy-pbx"
+      ],
+      "competitor": "Competitor C"
+    },
+    {
+      "id": "ACC-010",
+      "name": "Silverleaf Markets",
+      "industry": "Retail",
+      "employees": 20000,
+      "region": "Central",
+      "techSignals": [
+        "iot-fleet",
+        "programmable-voice"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-011",
+      "name": "Tidewater Capital",
+      "industry": "Energy",
+      "employees": 900,
+      "region": "Central",
+      "techSignals": [
+        "contact-center",
+        "programmable-voice"
+      ],
+      "competitor": "Competitor B"
+    },
+    {
+      "id": "ACC-012",
+      "name": "Vantage Systems",
+      "industry": "Financial Services",
+      "employees": 150,
+      "region": "West",
+      "techSignals": [
+        "contact-center"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-013",
+      "name": "Westbrook Clinics",
+      "industry": "Healthcare",
+      "employees": 900,
+      "region": "Central",
+      "techSignals": [
+        "sms-marketing"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-014",
+      "name": "Brightpath Capital",
+      "industry": "Media",
+      "employees": 20000,
+      "region": "East",
+      "techSignals": [
+        "iot-fleet",
+        "programmable-voice",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor C"
+    },
+    {
+      "id": "ACC-015",
+      "name": "Copperline Labs",
+      "industry": "Logistics",
+      "employees": 3500,
+      "region": "East",
+      "techSignals": [
+        "contact-center",
+        "programmable-voice"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-016",
+      "name": "Driftwood Capital",
+      "industry": "Education",
+      "employees": 400,
+      "region": "Central",
+      "techSignals": [],
+      "competitor": null
+    },
+    {
+      "id": "ACC-017",
+      "name": "Evergreen Retail Group",
+      "industry": "Media",
+      "employees": 60,
+      "region": "East",
+      "techSignals": [
+        "contact-center",
+        "iot-fleet",
+        "sms-marketing"
+      ],
+      "competitor": null
+    },
+    {
+      "id": "ACC-018",
+      "name": "Foxhollow Logistics",
+      "industry": "Retail",
+      "employees": 8000,
+      "region": "East",
+      "techSignals": [],
+      "competitor": "Competitor C"
+    },
+    {
+      "id": "ACC-019",
+      "name": "Granite Systems",
+      "industry": "Education",
+      "employees": 1800,
+      "region": "West",
+      "techSignals": [
+        "iot-fleet",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-020",
+      "name": "Hollow Creek Freight",
+      "industry": "Education",
+      "employees": 3500,
+      "region": "West",
+      "techSignals": [
+        "programmable-voice",
+        "legacy-pbx",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor C"
+    },
+    {
+      "id": "ACC-021",
+      "name": "Juniper Labs",
+      "industry": "Energy",
+      "employees": 20000,
+      "region": "West",
+      "techSignals": [],
+      "competitor": null
+    },
+    {
+      "id": "ACC-022",
+      "name": "Keystone Health",
+      "industry": "Education",
+      "employees": 60,
+      "region": "East",
+      "techSignals": [
+        "legacy-pbx"
+      ],
+      "competitor": "Competitor B"
+    },
+    {
+      "id": "ACC-023",
+      "name": "Larkspur Logistics",
+      "industry": "Education",
+      "employees": 60,
+      "region": "Central",
+      "techSignals": [
+        "legacy-pbx",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-024",
+      "name": "Meridian Freight",
+      "industry": "Retail",
+      "employees": 900,
+      "region": "East",
+      "techSignals": [
+        "legacy-pbx"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-025",
+      "name": "Oakridge Freight",
+      "industry": "Financial Services",
+      "employees": 1800,
+      "region": "East",
+      "techSignals": [
+        "programmable-voice",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor A"
+    },
+    {
+      "id": "ACC-026",
+      "name": "Pinecrest Labs",
+      "industry": "Healthcare",
+      "employees": 1800,
+      "region": "Central",
+      "techSignals": [
+        "contact-center",
+        "iot-fleet",
+        "legacy-pbx"
+      ],
+      "competitor": "Competitor C"
+    },
+    {
+      "id": "ACC-027",
+      "name": "Riverbend Energy",
+      "industry": "Healthcare",
+      "employees": 8000,
+      "region": "East",
+      "techSignals": [
+        "iot-fleet",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor B"
+    },
+    {
+      "id": "ACC-028",
+      "name": "Stonegate Health",
+      "industry": "Retail",
+      "employees": 400,
+      "region": "West",
+      "techSignals": [
+        "programmable-voice",
+        "legacy-pbx",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor B"
+    },
+    {
+      "id": "ACC-029",
+      "name": "Trailhead Markets",
+      "industry": "Retail",
+      "employees": 1800,
+      "region": "Central",
+      "techSignals": [
+        "iot-fleet",
+        "sms-marketing"
+      ],
+      "competitor": "Competitor C"
+    },
+    {
+      "id": "ACC-030",
+      "name": "Windward Freight",
+      "industry": "Education",
+      "employees": 8000,
+      "region": "Central",
+      "techSignals": [
+        "contact-center"
+      ],
+      "competitor": "Competitor A"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "OPP-0001",
+      "accountId": "ACC-001",
+      "name": "Blue Retail Group — Fraud alerts via SMS",
+      "owner": "Riley Chen",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 60000,
+      "createdDate": "2026-06-02",
+      "stageEnteredDate": "2026-06-02",
+      "closeDate": "2027-01-25",
+      "closeDatePushes": 4,
+      "nextStep": "Architecture workshop",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 1,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0002",
+      "accountId": "ACC-002",
+      "name": "Harbor Bank — IoT fleet connectivity",
+      "owner": "Morgan Reyes",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 180000,
+      "createdDate": "2026-07-21",
+      "stageEnteredDate": "2026-08-17",
+      "closeDate": "2026-12-03",
+      "closeDatePushes": 1,
+      "nextStep": "Redline MSA",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 3,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0003",
+      "accountId": "ACC-003",
+      "name": "Summit Capital — Voice AI agents",
+      "owner": "Morgan Reyes",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 24000,
+      "createdDate": "2026-07-25",
+      "stageEnteredDate": "2026-08-16",
+      "closeDate": "2026-12-06",
+      "closeDatePushes": 1,
+      "nextStep": "Redline MSA",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0004",
+      "accountId": "ACC-003",
+      "name": "Summit Capital — Global SIP trunking",
+      "owner": "Jordan Pike",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 250000,
+      "createdDate": "2026-04-24",
+      "stageEnteredDate": "2026-09-08",
+      "closeDate": "2027-01-14",
+      "closeDatePushes": 0,
+      "nextStep": "Technical deep-dive with network team",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 6,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0005",
+      "accountId": "ACC-004",
+      "name": "Cedar Health — Fraud alerts via SMS",
+      "owner": "Riley Chen",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 60000,
+      "createdDate": "2026-06-15",
+      "stageEnteredDate": "2026-08-19",
+      "closeDate": "2026-10-27",
+      "closeDatePushes": 0,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 3,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0006",
+      "accountId": "ACC-005",
+      "name": "Ironwood Freight — Voice AI agents",
+      "owner": "Morgan Reyes",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 24000,
+      "createdDate": "2026-06-15",
+      "stageEnteredDate": "2026-08-28",
+      "closeDate": "2026-12-01",
+      "closeDatePushes": 1,
+      "nextStep": "Technical deep-dive with network team",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 3,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0007",
+      "accountId": "ACC-005",
+      "name": "Ironwood Freight — Voice AI agents",
+      "owner": "Morgan Reyes",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 90000,
+      "createdDate": "2026-03-30",
+      "stageEnteredDate": "2026-09-22",
+      "closeDate": "2026-12-06",
+      "closeDatePushes": 1,
+      "nextStep": "Architecture workshop",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 7,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0008",
+      "accountId": "ACC-006",
+      "name": "Lumen Energy — Appointment reminders",
+      "owner": "Riley Chen",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 90000,
+      "createdDate": "2026-05-10",
+      "stageEnteredDate": "2026-08-21",
+      "closeDate": "2026-11-07",
+      "closeDatePushes": 0,
+      "nextStep": "Architecture workshop",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 6,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0009",
+      "accountId": "ACC-007",
+      "name": "Northgate Health — Voice AI agents",
+      "owner": "Avery Lane",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 180000,
+      "createdDate": "2026-09-10",
+      "stageEnteredDate": "2026-09-10",
+      "closeDate": "2027-01-09",
+      "closeDatePushes": 4,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0010",
+      "accountId": "ACC-007",
+      "name": "Northgate Health — Fraud alerts via SMS",
+      "owner": "Riley Chen",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 90000,
+      "createdDate": "2026-05-05",
+      "stageEnteredDate": "2026-08-26",
+      "closeDate": "2026-11-10",
+      "closeDatePushes": 1,
+      "nextStep": "Pricing review with CFO",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 7,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0011",
+      "accountId": "ACC-008",
+      "name": "Quarry Freight — Appointment reminders",
+      "owner": "Riley Chen",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 120000,
+      "createdDate": "2026-05-30",
+      "stageEnteredDate": "2026-08-06",
+      "closeDate": "2026-12-22",
+      "closeDatePushes": 1,
+      "nextStep": "Pricing review with CFO",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 5,
+      "productUsageTrend": "rising"
+    },
+    {
+      "id": "OPP-0012",
+      "accountId": "ACC-009",
+      "name": "Redline Media — Global SIP trunking",
+      "owner": "Riley Chen",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 60000,
+      "createdDate": "2026-06-18",
+      "stageEnteredDate": "2026-08-01",
+      "closeDate": "2026-12-16",
+      "closeDatePushes": 2,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": false,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 1,
+      "productUsageTrend": "declining"
+    },
+    {
+      "id": "OPP-0013",
+      "accountId": "ACC-010",
+      "name": "Silverleaf Markets — Global SIP trunking",
+      "owner": "Morgan Reyes",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 250000,
+      "createdDate": "2026-05-25",
+      "stageEnteredDate": "2026-08-02",
+      "closeDate": "2026-12-07",
+      "closeDatePushes": 1,
+      "nextStep": "Technical deep-dive with network team",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 3,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0014",
+      "accountId": "ACC-010",
+      "name": "Silverleaf Markets — Contact center modernization",
+      "owner": "Avery Lane",
+      "stage": 4,
+      "stageName": "Negotiation",
+      "amountArr": 60000,
+      "createdDate": "2026-06-25",
+      "stageEnteredDate": "2026-09-24",
+      "closeDate": "2026-10-27",
+      "closeDatePushes": 1,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 5,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0015",
+      "accountId": "ACC-011",
+      "name": "Tidewater Capital — Global SIP trunking",
+      "owner": "Riley Chen",
+      "stage": 0,
+      "stageName": "Discovery",
+      "amountArr": 250000,
+      "createdDate": "2026-04-25",
+      "stageEnteredDate": "2026-08-17",
+      "closeDate": "2026-09-20",
+      "closeDatePushes": 5,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": false,
+        "useCaseDefined": false,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "declining"
+    },
+    {
+      "id": "OPP-0016",
+      "accountId": "ACC-012",
+      "name": "Vantage Systems — Contact center modernization",
+      "owner": "Avery Lane",
+      "stage": 0,
+      "stageName": "Discovery",
+      "amountArr": 250000,
+      "createdDate": "2026-03-30",
+      "stageEnteredDate": "2026-07-06",
+      "closeDate": "2026-11-04",
+      "closeDatePushes": 4,
+      "nextStep": "Technical deep-dive with network team",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": false,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0017",
+      "accountId": "ACC-012",
+      "name": "Vantage Systems — IoT fleet connectivity",
+      "owner": "Avery Lane",
+      "stage": 0,
+      "stageName": "Discovery",
+      "amountArr": 180000,
+      "createdDate": "2026-04-01",
+      "stageEnteredDate": "2026-08-31",
+      "closeDate": "2026-12-10",
+      "closeDatePushes": 0,
+      "nextStep": "Architecture workshop",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": false,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 4,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0018",
+      "accountId": "ACC-013",
+      "name": "Westbrook Clinics — IoT fleet connectivity",
+      "owner": "Morgan Reyes",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 120000,
+      "createdDate": "2026-08-23",
+      "stageEnteredDate": "2026-08-23",
+      "closeDate": "2026-11-01",
+      "closeDatePushes": 1,
+      "nextStep": "Pricing review with CFO",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 3,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0019",
+      "accountId": "ACC-014",
+      "name": "Brightpath Capital — Voice AI agents",
+      "owner": "Riley Chen",
+      "stage": 4,
+      "stageName": "Negotiation",
+      "amountArr": 60000,
+      "createdDate": "2026-06-13",
+      "stageEnteredDate": "2026-09-03",
+      "closeDate": "2026-11-09",
+      "closeDatePushes": 1,
+      "nextStep": "Pricing review with CFO",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 7,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0020",
+      "accountId": "ACC-015",
+      "name": "Copperline Labs — Voice AI agents",
+      "owner": "Avery Lane",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 120000,
+      "createdDate": "2026-06-28",
+      "stageEnteredDate": "2026-09-14",
+      "closeDate": "2026-12-24",
+      "closeDatePushes": 1,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 4,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0021",
+      "accountId": "ACC-016",
+      "name": "Driftwood Capital — IoT fleet connectivity",
+      "owner": "Avery Lane",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 180000,
+      "createdDate": "2026-07-24",
+      "stageEnteredDate": "2026-07-24",
+      "closeDate": "2026-11-19",
+      "closeDatePushes": 4,
+      "nextStep": "Pricing review with CFO",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0022",
+      "accountId": "ACC-017",
+      "name": "Evergreen Retail Group — Fraud alerts via SMS",
+      "owner": "Morgan Reyes",
+      "stage": 4,
+      "stageName": "Negotiation",
+      "amountArr": 180000,
+      "createdDate": "2026-03-21",
+      "stageEnteredDate": "2026-09-04",
+      "closeDate": "2026-10-19",
+      "closeDatePushes": 0,
+      "nextStep": "Technical deep-dive with network team",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 3,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0023",
+      "accountId": "ACC-018",
+      "name": "Foxhollow Logistics — Appointment reminders",
+      "owner": "Jordan Pike",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 180000,
+      "createdDate": "2026-08-01",
+      "stageEnteredDate": "2026-08-20",
+      "closeDate": "2027-01-27",
+      "closeDatePushes": 0,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 5,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0024",
+      "accountId": "ACC-018",
+      "name": "Foxhollow Logistics — Global SIP trunking",
+      "owner": "Jordan Pike",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 24000,
+      "createdDate": "2026-08-27",
+      "stageEnteredDate": "2026-09-14",
+      "closeDate": "2026-11-05",
+      "closeDatePushes": 0,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 4,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0025",
+      "accountId": "ACC-019",
+      "name": "Granite Systems — Global SIP trunking",
+      "owner": "Riley Chen",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 180000,
+      "createdDate": "2026-03-14",
+      "stageEnteredDate": "2026-05-01",
+      "closeDate": "2027-01-01",
+      "closeDatePushes": 5,
+      "nextStep": "Architecture workshop",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 1,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0026",
+      "accountId": "ACC-019",
+      "name": "Granite Systems — IoT fleet connectivity",
+      "owner": "Riley Chen",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 250000,
+      "createdDate": "2026-07-19",
+      "stageEnteredDate": "2026-08-15",
+      "closeDate": "2026-10-26",
+      "closeDatePushes": 2,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 1,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0027",
+      "accountId": "ACC-020",
+      "name": "Hollow Creek Freight — Voice AI agents",
+      "owner": "Avery Lane",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 250000,
+      "createdDate": "2026-05-03",
+      "stageEnteredDate": "2026-07-25",
+      "closeDate": "2026-11-07",
+      "closeDatePushes": 1,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0028",
+      "accountId": "ACC-021",
+      "name": "Juniper Labs — Voice AI agents",
+      "owner": "Avery Lane",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 120000,
+      "createdDate": "2026-08-30",
+      "stageEnteredDate": "2026-08-30",
+      "closeDate": "2026-12-17",
+      "closeDatePushes": 5,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 1,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0029",
+      "accountId": "ACC-022",
+      "name": "Keystone Health — Fraud alerts via SMS",
+      "owner": "Morgan Reyes",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 24000,
+      "createdDate": "2026-05-09",
+      "stageEnteredDate": "2026-09-06",
+      "closeDate": "2026-12-02",
+      "closeDatePushes": 1,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0030",
+      "accountId": "ACC-023",
+      "name": "Larkspur Logistics — Voice AI agents",
+      "owner": "Morgan Reyes",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 36000,
+      "createdDate": "2026-03-28",
+      "stageEnteredDate": "2026-08-21",
+      "closeDate": "2026-12-18",
+      "closeDatePushes": 1,
+      "nextStep": "Security review",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 3,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0031",
+      "accountId": "ACC-023",
+      "name": "Larkspur Logistics — Appointment reminders",
+      "owner": "Jordan Pike",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 24000,
+      "createdDate": "2026-09-03",
+      "stageEnteredDate": "2026-09-03",
+      "closeDate": "2027-01-09",
+      "closeDatePushes": 3,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 1,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0032",
+      "accountId": "ACC-024",
+      "name": "Meridian Freight — Fraud alerts via SMS",
+      "owner": "Riley Chen",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 180000,
+      "createdDate": "2026-07-29",
+      "stageEnteredDate": "2026-08-18",
+      "closeDate": "2027-01-21",
+      "closeDatePushes": 1,
+      "nextStep": "Security review",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 4,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0033",
+      "accountId": "ACC-025",
+      "name": "Oakridge Freight — Fraud alerts via SMS",
+      "owner": "Jordan Pike",
+      "stage": 1,
+      "stageName": "Qualification",
+      "amountArr": 120000,
+      "createdDate": "2026-04-09",
+      "stageEnteredDate": "2026-06-22",
+      "closeDate": "2026-10-16",
+      "closeDatePushes": 2,
+      "nextStep": "",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0034",
+      "accountId": "ACC-026",
+      "name": "Pinecrest Labs — IoT fleet connectivity",
+      "owner": "Avery Lane",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 24000,
+      "createdDate": "2026-03-26",
+      "stageEnteredDate": "2026-08-21",
+      "closeDate": "2026-12-31",
+      "closeDatePushes": 0,
+      "nextStep": "Redline MSA",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0035",
+      "accountId": "ACC-027",
+      "name": "Riverbend Energy — Global SIP trunking",
+      "owner": "Avery Lane",
+      "stage": 3,
+      "stageName": "Proposal",
+      "amountArr": 36000,
+      "createdDate": "2026-07-03",
+      "stageEnteredDate": "2026-07-28",
+      "closeDate": "2026-11-23",
+      "closeDatePushes": 3,
+      "nextStep": "Pricing review with CFO",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0036",
+      "accountId": "ACC-027",
+      "name": "Riverbend Energy — Fraud alerts via SMS",
+      "owner": "Morgan Reyes",
+      "stage": 0,
+      "stageName": "Discovery",
+      "amountArr": 90000,
+      "createdDate": "2026-05-12",
+      "stageEnteredDate": "2026-08-21",
+      "closeDate": "2027-01-19",
+      "closeDatePushes": 2,
+      "nextStep": "Security review",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": false,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "none"
+    },
+    {
+      "id": "OPP-0037",
+      "accountId": "ACC-028",
+      "name": "Stonegate Health — Voice AI agents",
+      "owner": "Avery Lane",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 36000,
+      "createdDate": "2026-06-10",
+      "stageEnteredDate": "2026-08-02",
+      "closeDate": "2027-01-02",
+      "closeDatePushes": 0,
+      "nextStep": "Redline MSA",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": true
+      },
+      "contactsEngaged": 4,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0038",
+      "accountId": "ACC-029",
+      "name": "Trailhead Markets — Global SIP trunking",
+      "owner": "Morgan Reyes",
+      "stage": 4,
+      "stageName": "Negotiation",
+      "amountArr": 24000,
+      "createdDate": "2026-03-22",
+      "stageEnteredDate": "2026-09-18",
+      "closeDate": "2026-10-29",
+      "closeDatePushes": 0,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": true,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 4,
+      "productUsageTrend": "flat"
+    },
+    {
+      "id": "OPP-0039",
+      "accountId": "ACC-030",
+      "name": "Windward Freight — IoT fleet connectivity",
+      "owner": "Avery Lane",
+      "stage": 2,
+      "stageName": "Solution Design",
+      "amountArr": 250000,
+      "createdDate": "2026-06-03",
+      "stageEnteredDate": "2026-06-09",
+      "closeDate": "2026-10-15",
+      "closeDatePushes": 4,
+      "nextStep": "Pilot kickoff",
+      "qualification": {
+        "painIdentified": true,
+        "useCaseDefined": true,
+        "championIdentified": false,
+        "economicBuyerIdentified": false
+      },
+      "contactsEngaged": 2,
+      "productUsageTrend": "flat"
+    }
+  ],
+  "activities": [
+    {
+      "id": "ACT-00001",
+      "opportunityId": "OPP-0001",
+      "type": "email",
+      "date": "2026-09-01",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00002",
+      "opportunityId": "OPP-0001",
+      "type": "meeting",
+      "date": "2026-08-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00003",
+      "opportunityId": "OPP-0002",
+      "type": "call",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00004",
+      "opportunityId": "OPP-0002",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00005",
+      "opportunityId": "OPP-0002",
+      "type": "meeting",
+      "date": "2026-09-23",
+      "externalParticipants": 3
+    },
+    {
+      "id": "ACT-00006",
+      "opportunityId": "OPP-0002",
+      "type": "email",
+      "date": "2026-08-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00007",
+      "opportunityId": "OPP-0002",
+      "type": "call",
+      "date": "2026-08-06",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00008",
+      "opportunityId": "OPP-0002",
+      "type": "email",
+      "date": "2026-08-15",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00009",
+      "opportunityId": "OPP-0002",
+      "type": "email",
+      "date": "2026-09-15",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00010",
+      "opportunityId": "OPP-0002",
+      "type": "email",
+      "date": "2026-09-20",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00011",
+      "opportunityId": "OPP-0002",
+      "type": "meeting",
+      "date": "2026-07-18",
+      "externalParticipants": 3
+    },
+    {
+      "id": "ACT-00012",
+      "opportunityId": "OPP-0002",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00013",
+      "opportunityId": "OPP-0002",
+      "type": "call",
+      "date": "2026-09-06",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00014",
+      "opportunityId": "OPP-0002",
+      "type": "meeting",
+      "date": "2026-09-06",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00015",
+      "opportunityId": "OPP-0002",
+      "type": "meeting",
+      "date": "2026-07-11",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00016",
+      "opportunityId": "OPP-0002",
+      "type": "call",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00017",
+      "opportunityId": "OPP-0003",
+      "type": "email",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00018",
+      "opportunityId": "OPP-0003",
+      "type": "meeting",
+      "date": "2026-09-25",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00019",
+      "opportunityId": "OPP-0003",
+      "type": "email",
+      "date": "2026-09-09",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00020",
+      "opportunityId": "OPP-0003",
+      "type": "email",
+      "date": "2026-08-03",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00021",
+      "opportunityId": "OPP-0003",
+      "type": "call",
+      "date": "2026-07-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00022",
+      "opportunityId": "OPP-0003",
+      "type": "email",
+      "date": "2026-08-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00023",
+      "opportunityId": "OPP-0003",
+      "type": "call",
+      "date": "2026-07-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00024",
+      "opportunityId": "OPP-0004",
+      "type": "email",
+      "date": "2026-09-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00025",
+      "opportunityId": "OPP-0004",
+      "type": "call",
+      "date": "2026-09-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00026",
+      "opportunityId": "OPP-0004",
+      "type": "call",
+      "date": "2026-09-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00027",
+      "opportunityId": "OPP-0004",
+      "type": "meeting",
+      "date": "2026-09-12",
+      "externalParticipants": 4
+    },
+    {
+      "id": "ACT-00028",
+      "opportunityId": "OPP-0004",
+      "type": "email",
+      "date": "2026-07-25",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00029",
+      "opportunityId": "OPP-0004",
+      "type": "call",
+      "date": "2026-07-06",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00030",
+      "opportunityId": "OPP-0004",
+      "type": "email",
+      "date": "2026-09-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00031",
+      "opportunityId": "OPP-0004",
+      "type": "call",
+      "date": "2026-09-01",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00032",
+      "opportunityId": "OPP-0004",
+      "type": "email",
+      "date": "2026-07-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00033",
+      "opportunityId": "OPP-0004",
+      "type": "email",
+      "date": "2026-07-15",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00034",
+      "opportunityId": "OPP-0004",
+      "type": "call",
+      "date": "2026-09-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00035",
+      "opportunityId": "OPP-0004",
+      "type": "email",
+      "date": "2026-08-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00036",
+      "opportunityId": "OPP-0004",
+      "type": "email",
+      "date": "2026-07-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00037",
+      "opportunityId": "OPP-0004",
+      "type": "meeting",
+      "date": "2026-09-18",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00038",
+      "opportunityId": "OPP-0005",
+      "type": "email",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00039",
+      "opportunityId": "OPP-0005",
+      "type": "email",
+      "date": "2026-09-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00040",
+      "opportunityId": "OPP-0005",
+      "type": "email",
+      "date": "2026-09-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00041",
+      "opportunityId": "OPP-0005",
+      "type": "email",
+      "date": "2026-08-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00042",
+      "opportunityId": "OPP-0005",
+      "type": "email",
+      "date": "2026-08-02",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00043",
+      "opportunityId": "OPP-0005",
+      "type": "call",
+      "date": "2026-07-11",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00044",
+      "opportunityId": "OPP-0005",
+      "type": "call",
+      "date": "2026-08-02",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00045",
+      "opportunityId": "OPP-0006",
+      "type": "email",
+      "date": "2026-09-06",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00046",
+      "opportunityId": "OPP-0006",
+      "type": "meeting",
+      "date": "2026-09-14",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00047",
+      "opportunityId": "OPP-0006",
+      "type": "call",
+      "date": "2026-09-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00048",
+      "opportunityId": "OPP-0006",
+      "type": "email",
+      "date": "2026-08-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00049",
+      "opportunityId": "OPP-0006",
+      "type": "call",
+      "date": "2026-08-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00050",
+      "opportunityId": "OPP-0006",
+      "type": "call",
+      "date": "2026-09-20",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00051",
+      "opportunityId": "OPP-0006",
+      "type": "meeting",
+      "date": "2026-08-08",
+      "externalParticipants": 3
+    },
+    {
+      "id": "ACT-00052",
+      "opportunityId": "OPP-0007",
+      "type": "call",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00053",
+      "opportunityId": "OPP-0007",
+      "type": "call",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00054",
+      "opportunityId": "OPP-0007",
+      "type": "email",
+      "date": "2026-09-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00055",
+      "opportunityId": "OPP-0007",
+      "type": "email",
+      "date": "2026-07-03",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00056",
+      "opportunityId": "OPP-0007",
+      "type": "meeting",
+      "date": "2026-08-17",
+      "externalParticipants": 5
+    },
+    {
+      "id": "ACT-00057",
+      "opportunityId": "OPP-0007",
+      "type": "email",
+      "date": "2026-07-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00058",
+      "opportunityId": "OPP-0007",
+      "type": "email",
+      "date": "2026-07-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00059",
+      "opportunityId": "OPP-0007",
+      "type": "call",
+      "date": "2026-07-09",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00060",
+      "opportunityId": "OPP-0007",
+      "type": "email",
+      "date": "2026-09-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00061",
+      "opportunityId": "OPP-0007",
+      "type": "call",
+      "date": "2026-08-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00062",
+      "opportunityId": "OPP-0007",
+      "type": "email",
+      "date": "2026-09-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00063",
+      "opportunityId": "OPP-0007",
+      "type": "call",
+      "date": "2026-09-09",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00064",
+      "opportunityId": "OPP-0007",
+      "type": "call",
+      "date": "2026-08-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00065",
+      "opportunityId": "OPP-0007",
+      "type": "email",
+      "date": "2026-07-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00066",
+      "opportunityId": "OPP-0008",
+      "type": "call",
+      "date": "2026-09-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00067",
+      "opportunityId": "OPP-0008",
+      "type": "email",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00068",
+      "opportunityId": "OPP-0008",
+      "type": "email",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00069",
+      "opportunityId": "OPP-0008",
+      "type": "call",
+      "date": "2026-08-04",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00070",
+      "opportunityId": "OPP-0008",
+      "type": "call",
+      "date": "2026-08-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00071",
+      "opportunityId": "OPP-0008",
+      "type": "email",
+      "date": "2026-07-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00072",
+      "opportunityId": "OPP-0008",
+      "type": "email",
+      "date": "2026-08-09",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00073",
+      "opportunityId": "OPP-0008",
+      "type": "email",
+      "date": "2026-07-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00074",
+      "opportunityId": "OPP-0008",
+      "type": "call",
+      "date": "2026-07-31",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00075",
+      "opportunityId": "OPP-0008",
+      "type": "call",
+      "date": "2026-08-10",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00076",
+      "opportunityId": "OPP-0008",
+      "type": "meeting",
+      "date": "2026-08-05",
+      "externalParticipants": 5
+    },
+    {
+      "id": "ACT-00077",
+      "opportunityId": "OPP-0008",
+      "type": "email",
+      "date": "2026-09-30",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00078",
+      "opportunityId": "OPP-0008",
+      "type": "meeting",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00079",
+      "opportunityId": "OPP-0008",
+      "type": "call",
+      "date": "2026-09-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00080",
+      "opportunityId": "OPP-0009",
+      "type": "call",
+      "date": "2026-09-01",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00081",
+      "opportunityId": "OPP-0009",
+      "type": "call",
+      "date": "2026-09-01",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00082",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-09-20",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00083",
+      "opportunityId": "OPP-0010",
+      "type": "call",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00084",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00085",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00086",
+      "opportunityId": "OPP-0010",
+      "type": "call",
+      "date": "2026-07-04",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00087",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-07-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00088",
+      "opportunityId": "OPP-0010",
+      "type": "call",
+      "date": "2026-08-03",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00089",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-07-04",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00090",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-07-06",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00091",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-07-07",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00092",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-08-15",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00093",
+      "opportunityId": "OPP-0010",
+      "type": "email",
+      "date": "2026-09-11",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00094",
+      "opportunityId": "OPP-0010",
+      "type": "call",
+      "date": "2026-07-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00095",
+      "opportunityId": "OPP-0010",
+      "type": "call",
+      "date": "2026-09-02",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00096",
+      "opportunityId": "OPP-0011",
+      "type": "call",
+      "date": "2026-09-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00097",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-09-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00098",
+      "opportunityId": "OPP-0011",
+      "type": "call",
+      "date": "2026-09-30",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00099",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-08-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00100",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-09-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00101",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-08-03",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00102",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-09-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00103",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-07-30",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00104",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-07-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00105",
+      "opportunityId": "OPP-0011",
+      "type": "call",
+      "date": "2026-09-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00106",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-08-31",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00107",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-08-06",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00108",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-07-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00109",
+      "opportunityId": "OPP-0011",
+      "type": "email",
+      "date": "2026-09-13",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00110",
+      "opportunityId": "OPP-0013",
+      "type": "email",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00111",
+      "opportunityId": "OPP-0013",
+      "type": "email",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00112",
+      "opportunityId": "OPP-0013",
+      "type": "call",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00113",
+      "opportunityId": "OPP-0013",
+      "type": "meeting",
+      "date": "2026-07-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00114",
+      "opportunityId": "OPP-0013",
+      "type": "email",
+      "date": "2026-08-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00115",
+      "opportunityId": "OPP-0013",
+      "type": "call",
+      "date": "2026-08-15",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00116",
+      "opportunityId": "OPP-0013",
+      "type": "email",
+      "date": "2026-08-10",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00117",
+      "opportunityId": "OPP-0014",
+      "type": "call",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00118",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-09-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00119",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-09-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00120",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-08-09",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00121",
+      "opportunityId": "OPP-0014",
+      "type": "meeting",
+      "date": "2026-09-20",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00122",
+      "opportunityId": "OPP-0014",
+      "type": "meeting",
+      "date": "2026-09-20",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00123",
+      "opportunityId": "OPP-0014",
+      "type": "call",
+      "date": "2026-07-25",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00124",
+      "opportunityId": "OPP-0014",
+      "type": "call",
+      "date": "2026-09-25",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00125",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-07-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00126",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-07-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00127",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-07-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00128",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-08-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00129",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-08-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00130",
+      "opportunityId": "OPP-0014",
+      "type": "email",
+      "date": "2026-08-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00131",
+      "opportunityId": "OPP-0016",
+      "type": "email",
+      "date": "2026-08-01",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00132",
+      "opportunityId": "OPP-0016",
+      "type": "email",
+      "date": "2026-08-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00133",
+      "opportunityId": "OPP-0017",
+      "type": "email",
+      "date": "2026-09-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00134",
+      "opportunityId": "OPP-0017",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00135",
+      "opportunityId": "OPP-0017",
+      "type": "call",
+      "date": "2026-09-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00136",
+      "opportunityId": "OPP-0017",
+      "type": "call",
+      "date": "2026-08-07",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00137",
+      "opportunityId": "OPP-0017",
+      "type": "email",
+      "date": "2026-08-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00138",
+      "opportunityId": "OPP-0017",
+      "type": "call",
+      "date": "2026-07-13",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00139",
+      "opportunityId": "OPP-0017",
+      "type": "email",
+      "date": "2026-08-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00140",
+      "opportunityId": "OPP-0018",
+      "type": "call",
+      "date": "2026-09-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00141",
+      "opportunityId": "OPP-0018",
+      "type": "call",
+      "date": "2026-09-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00142",
+      "opportunityId": "OPP-0018",
+      "type": "meeting",
+      "date": "2026-09-08",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00143",
+      "opportunityId": "OPP-0018",
+      "type": "email",
+      "date": "2026-07-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00144",
+      "opportunityId": "OPP-0018",
+      "type": "call",
+      "date": "2026-08-20",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00145",
+      "opportunityId": "OPP-0018",
+      "type": "email",
+      "date": "2026-08-25",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00146",
+      "opportunityId": "OPP-0018",
+      "type": "meeting",
+      "date": "2026-07-04",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00147",
+      "opportunityId": "OPP-0019",
+      "type": "call",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00148",
+      "opportunityId": "OPP-0019",
+      "type": "email",
+      "date": "2026-09-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00149",
+      "opportunityId": "OPP-0019",
+      "type": "email",
+      "date": "2026-09-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00150",
+      "opportunityId": "OPP-0019",
+      "type": "email",
+      "date": "2026-09-06",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00151",
+      "opportunityId": "OPP-0019",
+      "type": "call",
+      "date": "2026-09-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00152",
+      "opportunityId": "OPP-0019",
+      "type": "email",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00153",
+      "opportunityId": "OPP-0019",
+      "type": "call",
+      "date": "2026-09-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00154",
+      "opportunityId": "OPP-0019",
+      "type": "call",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00155",
+      "opportunityId": "OPP-0019",
+      "type": "email",
+      "date": "2026-08-12",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00156",
+      "opportunityId": "OPP-0019",
+      "type": "call",
+      "date": "2026-08-31",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00157",
+      "opportunityId": "OPP-0019",
+      "type": "email",
+      "date": "2026-08-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00158",
+      "opportunityId": "OPP-0019",
+      "type": "meeting",
+      "date": "2026-07-22",
+      "externalParticipants": 6
+    },
+    {
+      "id": "ACT-00159",
+      "opportunityId": "OPP-0019",
+      "type": "email",
+      "date": "2026-08-02",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00160",
+      "opportunityId": "OPP-0019",
+      "type": "call",
+      "date": "2026-08-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00161",
+      "opportunityId": "OPP-0020",
+      "type": "email",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00162",
+      "opportunityId": "OPP-0020",
+      "type": "email",
+      "date": "2026-09-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00163",
+      "opportunityId": "OPP-0020",
+      "type": "call",
+      "date": "2026-09-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00164",
+      "opportunityId": "OPP-0020",
+      "type": "email",
+      "date": "2026-09-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00165",
+      "opportunityId": "OPP-0020",
+      "type": "email",
+      "date": "2026-07-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00166",
+      "opportunityId": "OPP-0020",
+      "type": "email",
+      "date": "2026-09-09",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00167",
+      "opportunityId": "OPP-0020",
+      "type": "meeting",
+      "date": "2026-08-27",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00168",
+      "opportunityId": "OPP-0021",
+      "type": "call",
+      "date": "2026-07-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00169",
+      "opportunityId": "OPP-0021",
+      "type": "call",
+      "date": "2026-08-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00170",
+      "opportunityId": "OPP-0022",
+      "type": "email",
+      "date": "2026-09-20",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00171",
+      "opportunityId": "OPP-0022",
+      "type": "email",
+      "date": "2026-09-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00172",
+      "opportunityId": "OPP-0022",
+      "type": "meeting",
+      "date": "2026-09-23",
+      "externalParticipants": 3
+    },
+    {
+      "id": "ACT-00173",
+      "opportunityId": "OPP-0022",
+      "type": "call",
+      "date": "2026-08-10",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00174",
+      "opportunityId": "OPP-0022",
+      "type": "email",
+      "date": "2026-09-13",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00175",
+      "opportunityId": "OPP-0022",
+      "type": "email",
+      "date": "2026-07-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00176",
+      "opportunityId": "OPP-0022",
+      "type": "meeting",
+      "date": "2026-09-05",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00177",
+      "opportunityId": "OPP-0023",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00178",
+      "opportunityId": "OPP-0023",
+      "type": "call",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00179",
+      "opportunityId": "OPP-0023",
+      "type": "call",
+      "date": "2026-09-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00180",
+      "opportunityId": "OPP-0023",
+      "type": "call",
+      "date": "2026-07-20",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00181",
+      "opportunityId": "OPP-0023",
+      "type": "email",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00182",
+      "opportunityId": "OPP-0023",
+      "type": "meeting",
+      "date": "2026-09-15",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00183",
+      "opportunityId": "OPP-0023",
+      "type": "call",
+      "date": "2026-08-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00184",
+      "opportunityId": "OPP-0023",
+      "type": "email",
+      "date": "2026-09-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00185",
+      "opportunityId": "OPP-0023",
+      "type": "email",
+      "date": "2026-08-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00186",
+      "opportunityId": "OPP-0023",
+      "type": "email",
+      "date": "2026-07-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00187",
+      "opportunityId": "OPP-0023",
+      "type": "call",
+      "date": "2026-09-09",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00188",
+      "opportunityId": "OPP-0023",
+      "type": "call",
+      "date": "2026-08-11",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00189",
+      "opportunityId": "OPP-0023",
+      "type": "meeting",
+      "date": "2026-07-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00190",
+      "opportunityId": "OPP-0023",
+      "type": "call",
+      "date": "2026-09-30",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00191",
+      "opportunityId": "OPP-0024",
+      "type": "meeting",
+      "date": "2026-09-08",
+      "externalParticipants": 3
+    },
+    {
+      "id": "ACT-00192",
+      "opportunityId": "OPP-0024",
+      "type": "email",
+      "date": "2026-09-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00193",
+      "opportunityId": "OPP-0024",
+      "type": "email",
+      "date": "2026-09-25",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00194",
+      "opportunityId": "OPP-0024",
+      "type": "call",
+      "date": "2026-08-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00195",
+      "opportunityId": "OPP-0024",
+      "type": "meeting",
+      "date": "2026-09-06",
+      "externalParticipants": 4
+    },
+    {
+      "id": "ACT-00196",
+      "opportunityId": "OPP-0024",
+      "type": "meeting",
+      "date": "2026-07-27",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00197",
+      "opportunityId": "OPP-0024",
+      "type": "email",
+      "date": "2026-07-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00198",
+      "opportunityId": "OPP-0025",
+      "type": "call",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00199",
+      "opportunityId": "OPP-0025",
+      "type": "call",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00200",
+      "opportunityId": "OPP-0026",
+      "type": "call",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00201",
+      "opportunityId": "OPP-0026",
+      "type": "call",
+      "date": "2026-07-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00202",
+      "opportunityId": "OPP-0027",
+      "type": "email",
+      "date": "2026-08-11",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00203",
+      "opportunityId": "OPP-0027",
+      "type": "call",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00204",
+      "opportunityId": "OPP-0028",
+      "type": "meeting",
+      "date": "2026-07-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00205",
+      "opportunityId": "OPP-0028",
+      "type": "email",
+      "date": "2026-08-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00206",
+      "opportunityId": "OPP-0029",
+      "type": "email",
+      "date": "2026-09-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00207",
+      "opportunityId": "OPP-0029",
+      "type": "email",
+      "date": "2026-09-24",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00208",
+      "opportunityId": "OPP-0029",
+      "type": "email",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00209",
+      "opportunityId": "OPP-0029",
+      "type": "call",
+      "date": "2026-08-31",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00210",
+      "opportunityId": "OPP-0029",
+      "type": "email",
+      "date": "2026-08-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00211",
+      "opportunityId": "OPP-0029",
+      "type": "call",
+      "date": "2026-08-17",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00212",
+      "opportunityId": "OPP-0029",
+      "type": "email",
+      "date": "2026-09-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00213",
+      "opportunityId": "OPP-0030",
+      "type": "call",
+      "date": "2026-09-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00214",
+      "opportunityId": "OPP-0030",
+      "type": "email",
+      "date": "2026-09-16",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00215",
+      "opportunityId": "OPP-0030",
+      "type": "email",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00216",
+      "opportunityId": "OPP-0030",
+      "type": "email",
+      "date": "2026-08-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00217",
+      "opportunityId": "OPP-0030",
+      "type": "email",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00218",
+      "opportunityId": "OPP-0030",
+      "type": "email",
+      "date": "2026-08-31",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00219",
+      "opportunityId": "OPP-0030",
+      "type": "email",
+      "date": "2026-08-29",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00220",
+      "opportunityId": "OPP-0031",
+      "type": "call",
+      "date": "2026-09-02",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00221",
+      "opportunityId": "OPP-0031",
+      "type": "email",
+      "date": "2026-08-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00222",
+      "opportunityId": "OPP-0032",
+      "type": "call",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00223",
+      "opportunityId": "OPP-0032",
+      "type": "call",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00224",
+      "opportunityId": "OPP-0032",
+      "type": "email",
+      "date": "2026-09-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00225",
+      "opportunityId": "OPP-0032",
+      "type": "meeting",
+      "date": "2026-08-24",
+      "externalParticipants": 4
+    },
+    {
+      "id": "ACT-00226",
+      "opportunityId": "OPP-0032",
+      "type": "email",
+      "date": "2026-07-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00227",
+      "opportunityId": "OPP-0032",
+      "type": "meeting",
+      "date": "2026-08-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00228",
+      "opportunityId": "OPP-0032",
+      "type": "email",
+      "date": "2026-09-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00229",
+      "opportunityId": "OPP-0033",
+      "type": "email",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00230",
+      "opportunityId": "OPP-0033",
+      "type": "email",
+      "date": "2026-08-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00231",
+      "opportunityId": "OPP-0034",
+      "type": "email",
+      "date": "2026-09-18",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00232",
+      "opportunityId": "OPP-0034",
+      "type": "call",
+      "date": "2026-09-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00233",
+      "opportunityId": "OPP-0034",
+      "type": "email",
+      "date": "2026-09-05",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00234",
+      "opportunityId": "OPP-0034",
+      "type": "email",
+      "date": "2026-08-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00235",
+      "opportunityId": "OPP-0034",
+      "type": "meeting",
+      "date": "2026-09-23",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00236",
+      "opportunityId": "OPP-0034",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00237",
+      "opportunityId": "OPP-0034",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00238",
+      "opportunityId": "OPP-0035",
+      "type": "email",
+      "date": "2026-07-22",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00239",
+      "opportunityId": "OPP-0035",
+      "type": "email",
+      "date": "2026-09-01",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00240",
+      "opportunityId": "OPP-0036",
+      "type": "email",
+      "date": "2026-07-26",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00241",
+      "opportunityId": "OPP-0036",
+      "type": "email",
+      "date": "2026-07-28",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00242",
+      "opportunityId": "OPP-0037",
+      "type": "email",
+      "date": "2026-09-11",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00243",
+      "opportunityId": "OPP-0037",
+      "type": "call",
+      "date": "2026-09-14",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00244",
+      "opportunityId": "OPP-0037",
+      "type": "email",
+      "date": "2026-09-08",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00245",
+      "opportunityId": "OPP-0037",
+      "type": "email",
+      "date": "2026-07-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00246",
+      "opportunityId": "OPP-0037",
+      "type": "meeting",
+      "date": "2026-08-15",
+      "externalParticipants": 4
+    },
+    {
+      "id": "ACT-00247",
+      "opportunityId": "OPP-0037",
+      "type": "email",
+      "date": "2026-08-11",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00248",
+      "opportunityId": "OPP-0037",
+      "type": "email",
+      "date": "2026-08-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00249",
+      "opportunityId": "OPP-0038",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00250",
+      "opportunityId": "OPP-0038",
+      "type": "email",
+      "date": "2026-09-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00251",
+      "opportunityId": "OPP-0038",
+      "type": "email",
+      "date": "2026-09-23",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00252",
+      "opportunityId": "OPP-0038",
+      "type": "meeting",
+      "date": "2026-09-21",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00253",
+      "opportunityId": "OPP-0038",
+      "type": "email",
+      "date": "2026-08-19",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00254",
+      "opportunityId": "OPP-0038",
+      "type": "meeting",
+      "date": "2026-09-15",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00255",
+      "opportunityId": "OPP-0038",
+      "type": "call",
+      "date": "2026-08-13",
+      "externalParticipants": 1
+    },
+    {
+      "id": "ACT-00256",
+      "opportunityId": "OPP-0039",
+      "type": "meeting",
+      "date": "2026-09-17",
+      "externalParticipants": 2
+    },
+    {
+      "id": "ACT-00257",
+      "opportunityId": "OPP-0039",
+      "type": "email",
+      "date": "2026-09-27",
+      "externalParticipants": 1
+    }
+  ]
+}
